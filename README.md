@@ -8,3 +8,6 @@ $ sudo cat /etc/X11/default-display-manager
 /usr/sbin/gdm3
 $ sudo systemctl restart gdm3.service
 ```
+
+## VNC
+* https://www.teknotut.com/en/install-vnc-server-with-gnome-display-on-ubuntu-18-04/
