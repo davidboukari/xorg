@@ -49,3 +49,17 @@ fi
 /usr/bin/indicator-cpufreq &
 /usr/bin/nm-applet &
 ```
+* gnome vnc startup
+```
+$ cat $HOME/.vnc/xstartup |egrep -v '#'|grep -v "^$"
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+x-window-manager &
+exec /usr/bin/mate-session
+
+$ systemctl get-default
+$ systemctl set-default graphical.target
+```
