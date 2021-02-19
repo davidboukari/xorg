@@ -11,6 +11,7 @@ $ sudo systemctl restart gdm3.service
 
 ## VNC
 * https://www.teknotut.com/en/install-vnc-server-with-gnome-display-on-ubuntu-18-04/
+* https://github.com/davidboukari/xorg-x11-vnc
 
 ## Fluxbox session with vnc
 ```
