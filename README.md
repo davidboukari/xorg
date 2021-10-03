@@ -1,5 +1,15 @@
 # xorg
 
+X11 forwarding
+```
+yum install  xorg-x11-server-Xorg xorg-x11-xauth xorg-x11-apps -y
+
+vim /etc/ssh/sshd_config
+X11Forwarding yes
+
+systemctl restart sshd
+```
+
 Configure xorg: http://doc.ubuntu-fr.org/xorg
 ```
 sudo X -configure
