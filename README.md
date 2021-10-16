@@ -1,6 +1,14 @@
 # xorg
 
-X11 forwarding
+## Get tthe display
+```
+[root@control-plane ~]# xauth list $DISPLAY
+control-plane.minikube.internal/unix:11  MIT-MAGIC-COOKIE-1  5b761113eb13baa6694b754a354b84b4
+[root@control-plane ~]# echo $DISPLAY
+localhost:11.0
+```
+
+## X11 forwarding
 ```
 yum install  xorg-x11-server-Xorg xorg-x11-xauth xorg-x11-apps -y
 
