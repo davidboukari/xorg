@@ -1,6 +1,6 @@
 # xorg
 
-## Get tthe display
+## Get the display
 ```
 [root@control-plane ~]# xauth list $DISPLAY
 control-plane.minikube.internal/unix:11  MIT-MAGIC-COOKIE-1  5b761113eb13baa6694b754a354b84b4
