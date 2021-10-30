@@ -14,6 +14,9 @@ localhost:11.0
 dnf groupinstall "Server with GUI" -y
 
 systemctl set-default graphical
+
+dnf install tigervnc-server.x86_64 tigervnc.x86_64
+
 reboot
 ```
 
