@@ -8,6 +8,13 @@ control-plane.minikube.internal/unix:11  MIT-MAGIC-COOKIE-1  5b761113eb13baa6694
 localhost:11.0
 ```
 
+## Centos 7
+```
+yum grouplist 
+
+yum groupinstall MATE
+```
+
 ## Install the group GUI Centos 8
 * https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-gnome-gui-on-rhel-8.html
 ```
