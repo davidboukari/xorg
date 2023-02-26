@@ -1,5 +1,10 @@
 # xorg
 
+## Ubuntu
+```
+sudo aptitude install xorg
+```
+
 ## Get the display
 ```
 [root@control-plane ~]# xauth list $DISPLAY
