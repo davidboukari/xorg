@@ -2,7 +2,7 @@
 
 ## Ubuntu
 ```
-sudo aptitude install xorg
+sudo apt-get install xorg
 ```
 
 ## Get the display
